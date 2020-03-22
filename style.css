@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ff6161;
+}
+.container{
+  width: 450px;
+  height: 450px;
+  background-color: #ff6161;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 14px 28px hsla(0, 0%, 0%, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.circle{
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grow{
+  transform: scale(1.5);
+}
+
